@@ -1,0 +1,55 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.8rem;
+    padding: 1rem;
+    width: min-content;
+    flex-direction: column;
+    border: 3px solid #b2daed;
+    border-radius: 1.5%;
+    background-color: #9fded5;
+}
+
+.box>button{
+    width: 6rem;
+    height: 1.5rem;
+    font-size: 18px;
+    margin: 1rem 0;
+    border: 2px solid rgba(0, 0, 0, 0.437);
+    border-radius: 200%;
+    color: black;
+    background-color: #f0e14a;
+}
+
+.box>button:hover{
+    color: white;
+    background-color: #97ce4c;
+}
+
+.box>button:active{
+    background-color: #20af31;
+}
+
+.status{
+    display: flex;
+}
+
+.status>button{
+    margin-left: 0.4rem;
+    background: none;
+    border: none;
+    font-size: 18px;
+}
+
+.status>button:focus{
+    color: purple;
+}
+
+.info{
+    color: white;
+    width: 20rem;
+    padding: 0.6rem 1.7rem;
+    font-size: 18px;
+    background-color: #20af31;
+    border-radius: 1.5%;
+}

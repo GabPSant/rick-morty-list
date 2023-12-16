@@ -1,0 +1,14 @@
+// Pegar os dados da página
+GET https://rickandmortyapi.com/api/character/1
+
+###
+// Pegar os dados da página de personagens (characters)
+GET https://rickandmortyapi.com/api/character?page=1
+
+###
+// Pegar os dados da página de localizações (locations)
+GET https://rickandmortyapi.com/api/location
+
+###
+// Pegar os dados da página de episodios (episodes)
+GET https://rickandmortyapi.com/api/episode
